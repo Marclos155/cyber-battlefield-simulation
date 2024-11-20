@@ -33,7 +33,7 @@ To run the project locally, follow these steps:
    ```bash
    pip install -r requeriments.txt
    ```
-4. Run the Flask app:
+4. Run the Flask app:![Captura de pantalla del mapa](https://i.imgur.com/xyz123.png)
    ```bash
    python app.py
    ```
@@ -47,3 +47,4 @@ To run the project locally, follow these steps:
 1. The backend serves the application and provides the cyber incidents data trough an API
 2. The frontend fetches data from the backend and displays it on an interactive map using Leaflet.js
 3. The map update in real-time with random incidents simulated in different countries.
+

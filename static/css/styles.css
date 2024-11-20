@@ -1,0 +1,44 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo y la fuente */
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Estilo del encabezado */
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del mapa */
+#map {
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    width: 100%;
+    border-top: 2px solid #4ca1af;
+}
+
+/* Popup personalizado en Leaflet */
+.leaflet-popup-content-wrapper {
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.leaflet-popup-tip {
+    background-color: #333;
+}
